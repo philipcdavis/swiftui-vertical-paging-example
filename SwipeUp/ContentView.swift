@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            // Credit to Gary Tokmen for this bit: https://blog.prototypr.io/how-to-vertical-paging-in-swiftui-f0e4afa739ba
+            // Credit to Gary Tokmen for this bit of Geometry Reader code: https://blog.prototypr.io/how-to-vertical-paging-in-swiftui-f0e4afa739ba
         
             GeometryReader { proxy in
                 TabView {
